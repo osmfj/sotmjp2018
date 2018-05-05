@@ -34,3 +34,5 @@ https://www.library.chiyoda.tokyo.jp/space/hibiyahall/
 SotM JP 2018 懇親会
 8月11日 17時30分から
 日比谷公園内 カフェテラス 日比谷グリーンサロン
+
+{% include map.html %}
