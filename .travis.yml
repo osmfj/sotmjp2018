@@ -6,7 +6,7 @@ install:
   - git clone https://github.com/osmfj/stateofthemap ../stateofthemap.master
 
 script:
-  - jekyll build
+  - bundle exec jekyll build -b 2018
   - cp -R _site/* ../stateofthemap.master/2018/
   - cd ../stateofthemap.master
   - git config user.email info@osmf.jp
