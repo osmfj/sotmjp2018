@@ -3,7 +3,7 @@ language: ruby
 install:
   - bundle install
   - rm -rf ../stateothemap.master
-  - git clone https://github.com/osmfj/stateofthemap ../stateofthemap.master
+  - git clone https://${GH_TOKEN}@github.com/osmfj/stateofthemap ../stateofthemap.master
 
 script:
   - bundle exec jekyll build -b 2018
