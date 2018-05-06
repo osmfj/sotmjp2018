@@ -1,8 +1,12 @@
----
----
+$version: "1.0.0";
+$author: "KMR-Zoar";
+$created: "2018-05-06";
+/*
+  Sponsor logo size
+*/
 $GOLD_SPONSOR_WIDTH: 25%;
-$SILVER_SPONSOR_WIDTH: 20%;
-$SUPPORTER_SPONSOR_WIDTH: 15%;
+$SILVER_SPONSOR_WIDTH: 18%;
+$SUPPORTER_SPONSOR_WIDTH: 8%;
 
 .sponsorlist {
    margin-bottom: 1.5rem;

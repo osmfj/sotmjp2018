@@ -37,6 +37,9 @@ State of the Map Japan 2018 は“知のバリアフリー” をテーマに、
 
 {% include map.html %}
 
+
+{% include sponsor.html %} 
+
 ## タイムテーブル
 
 {% include timetable.html %}
