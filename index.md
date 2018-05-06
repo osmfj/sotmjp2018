@@ -37,6 +37,9 @@ State of the Map Japan 2018 は“知のバリアフリー” をテーマに、
 
 {% include map.html %}
 
+## タイムテーブル
+
+{% include timetable.html %}
 
 ## SotM JP 2018 懇親会
 
