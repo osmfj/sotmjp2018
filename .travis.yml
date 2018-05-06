@@ -7,7 +7,7 @@ install:
 
 script:
   - bundle exec jekyll build -b 2018
-  - cp -R _site/* ../stateofthemap.master/2018/
+  - cp -R 2018/* ../stateofthemap.master/2018/
   - cd ../stateofthemap.master
   - git config user.email info@osmf.jp
   - git config user.name "OSMFJ automated builder"
