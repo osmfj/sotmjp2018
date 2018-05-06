@@ -12,7 +12,7 @@ script:
   - git config user.email info@osmf.jp
   - git config user.name "OSMFJ automated builder"
   - git add -A 2018
-  - git commit -m "Update from travis sotmjp2018/$TRAVIS_BIULD_NUMBER"
+  - git commit -m "Update from travis sotmjp2018/$TRAVIS_BUILD_NUMBER"
   - git push --quiet origin master > /dev/null 2>&1
 
 env:
