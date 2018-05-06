@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="{{ '/assets/stylesheets/sponsor.css' | relative_url }}">
+<div id="sponsor">
+  <h1>スポンサー</h1>
+  <div class="calltext">
+    <p>State of the Map Japan 2018および今後のOpenStreetMap活動にご協力いただけるスポンサー様を募集しております。</p>
+    <p>法人様で支援を検討頂ける場合、こちらから各種の資料をお送りさせていただきます。team@stateofthemap.jp 宛てに「資料希望」「相談希望」等、お問い合わせください。</p>
+  </div>
+  <div class="sponsorlist">
+    <h2 class="gold-heading">Gold</h2>
+    <div class="gold-sponsor">
+      {% for index in (1..6) %}
+      <a href="#">
+        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="sponsorlist">
+    <h2 class="silver-heading">Silver</h2>
+    <div class="silver-sponsor">
+      {% for index in (1..6) %}
+      <a href="#">
+        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="sponsorlist">
+    <h2 class="supporter-heading">開催支援</h2>
+    <div class="supporter-sponsor">
+      {% for index in (1..6) %}
+      <a href="#">
+        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
