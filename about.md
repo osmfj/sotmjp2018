@@ -18,7 +18,7 @@ OpenStreetMapコミュニティによる自由な地理情報の整備状況を�
 # 本サイトについて
 
 本イベントサイトは、github pagesで実現されています。
-ソースコードは、 https://github.com/osmfj/sotmjp2018 で開発されています。
+ソースコードは、[Github](https://github.com/osmfj/sotmjp2018) で開発されています。
 文書処理には Jekyllがつかわれています。デザインや処理系は、Githubで入手可能です。
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
