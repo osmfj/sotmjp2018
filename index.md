@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+image: /assets/images/SOTM_2017.jpg
 ---
 
 # 世界を自由な地図にしよう
@@ -38,7 +39,7 @@ State of the Map Japan 2018 は“知のバリアフリー” をテーマに、
 {% include map.html %}
 
 
-{% include sponsor.html %} 
+{% include sponsor.html %}
 
 ## タイムテーブル
 
