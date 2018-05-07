@@ -7,9 +7,9 @@ $created: "2018-05-06";
 /*
   Sponsor logo size
 */
-$GOLD_SPONSOR_WIDTH: 25%;
-$SILVER_SPONSOR_WIDTH: 18%;
-$SUPPORTER_SPONSOR_WIDTH: 8%;
+$GOLD_SPONSOR_WIDTH: 45%;
+$SILVER_SPONSOR_WIDTH: 30%;
+$SUPPORTER_SPONSOR_WIDTH: 23%;
 
 .sponsorlist {
    margin-bottom: 1.5rem;
@@ -19,20 +19,21 @@ $SUPPORTER_SPONSOR_WIDTH: 8%;
   margin-bottom: 0rem;
 }
 
-.sponsorlist a {
+.sponsorlist .logo {
   display: inline-block;
-  margin: 10px 5px;
+  margin-bottom: 10px;
 }
 
-.gold-sponsor a {
+.gold-sponsor .logo {
   width: $GOLD_SPONSOR_WIDTH;
+  text-align: center;
 }
 
-.silver-sponsor a {
+.silver-sponsor .logo {
   width: $SILVER_SPONSOR_WIDTH;
 }
 
-.supporter-sponsor a {
+.supporter-sponsor .logo {
   width: $SUPPORTER_SPONSOR_WIDTH;
 }
 

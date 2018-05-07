@@ -8,30 +8,45 @@
   <div class="sponsorlist">
     <h2 class="gold-heading">Gold Sponsors</h2>
     <div class="gold-sponsor">
-      {% for index in (1..2) %}
-      <a href="#">
-        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
-      </a>
+      {% for sponsor in site.data.sponsors %}
+      {% if sponsor.level == "gold" %}
+      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
+      <div class="logo">
+        <a href="{{ sponsor.url }}">
+          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
+        </a>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
   <div class="sponsorlist">
     <h2 class="silver-heading">Silver Sponsors</h2>
     <div class="silver-sponsor">
-      {% for index in (1..4) %}
-      <a href="#">
-        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
-      </a>
+      {% for sponsor in site.data.sponsors %}
+      {% if sponsor.level == "silver" %}
+      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
+      <div class="logo">
+        <a href="{{ sponsor.url }}">
+          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
+        </a>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
   <div class="sponsorlist">
     <h2 class="supporter-heading">Personal Supporters</h2>
     <div class="supporter-sponsor">
-      {% for index in (1..2) %}
-      <a href="#">
-        <img src="{{ '/assets/images/yourlogohere.png' | relative_url }}">
-      </a>
+      {% for sponsor in site.data.sponsors %}
+      {% if sponsor.level == "support" %}
+      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
+      <div class="logo">
+        <a href="{{ sponsor.url }}">
+          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
+        </a>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
