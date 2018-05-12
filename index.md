@@ -8,11 +8,11 @@ image: /assets/images/SOTM_2017.jpg
 
 # 世界を自由な地図にしよう
 
-State of the Map Japan 2018 を2018年8月11日(土)に開催します。会場は、東京都千代田区の日比谷公園内にある、千代田区立図書文化館内の 日比谷コンベンションホール です。
+[OpenStreetMap](https://openstreetmap.jp/)コミュニティのイベント、State of the Map Japan 2018カンファレンス を2018年8月11日(土)に開催します。会場は、東京都千代田区の日比谷公園内にある、千代田区立図書文化館内の[日比谷コンベンションホール](https://www.library.chiyoda.tokyo.jp/space/hibiyahall/ "日比谷コンベンションホール公式ページ")です。
 
 # カンファレンス・テーマ
 
-State of the Map Japan 2018 は“知のバリアフリー” をテーマに、OSMの意味を探るカンファレンスを開催します。
+State of the Map Japan 2018 は“知のバリアフリー” をテーマに、[OpenStreetMap](https://openstreetmap.jp)の意味を探るカンファレンスを開催します。
 
 本年のState of the Map Japan 2018は、知的な営みの蓄積と共有を行う施設であり、"地域において知識をえる窓口である"(ユネスコ公共図書館宣言1994)「図書館」を舞台として開催されます、地球上の「事実」を地物という形で記録するデータベースであるOpenStreetMapを通じて、知の世界(情報)へのアクセス、発見について、そして知の世界の冒険に必要な「地図」について、考えたいと思います。
 
@@ -25,9 +25,9 @@ State of the Map Japan 2018 は“知のバリアフリー” をテーマに、
 
 # 開催概要
 
-## カンファレンス名称 ステート オブ ザ マップ State of the Map 2018
+## カンファレンス名称 ステート オブ ザ マップ State of the Map Japan 2018
 
-* 主催    State of the Map Japan 2018 実行委員会,  一般社団法人OpenStreetMap Foundation Japan
+* 主催    [State of the Map Japan 2018 実行委員会](/about/),  [一般社団法人OpenStreetMap Foundation Japan](https://osmf.jp/)
 
 * 開催日時  2018年8月11日 10時から17時
 
