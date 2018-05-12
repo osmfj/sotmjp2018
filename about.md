@@ -1,7 +1,7 @@
 ---
 layout: page
 title: State of the Mapについて
-permalink: /about/
+permalink: about.html
 ---
 # State of the Map について
 

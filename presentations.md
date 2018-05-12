@@ -1,9 +1,8 @@
 ---
 layout: page
 title: 講演
-permalink: /presentations/
+permalink: presentations.html
 ---
-
 # 講演提案のうけつけ
 
 6月18日まで、講演提案を受付けています。
