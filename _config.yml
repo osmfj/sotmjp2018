@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: ja-JP
-title: State of the Map JP 2018
-destination: "2018"
-email:
+title: State of the Map Japan 2018
+destination: 2018
+email: team@stateofthemap.jp
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stateofthemap.jp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
@@ -57,7 +57,7 @@ exclude:
   - LICENSE
   - node_modules
   - Rakefile
-  - README
+  - README.md
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

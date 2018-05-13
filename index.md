@@ -6,9 +6,15 @@ layout: home
 image: /assets/images/SOTM_2017.jpg
 ---
 
+## [講演提案を6/18まで受付中](presentations.html)
+
 # 世界を自由な地図にしよう
 
 [OpenStreetMap](https://openstreetmap.jp/)コミュニティのイベント、State of the Map Japan 2018カンファレンス を2018年8月11日(土)に開催します。会場は、東京都千代田区の日比谷公園内にある、千代田区立図書文化館内の[日比谷コンベンションホール](https://www.library.chiyoda.tokyo.jp/space/hibiyahall/ "日比谷コンベンションホール公式ページ")です。
+
+# おしらせ
+
+{% include posts.html %}
 
 # カンファレンス・テーマ
 
