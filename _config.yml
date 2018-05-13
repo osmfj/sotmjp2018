@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: ja-JP
 title: State of the Map Japan 2018
-destination: 2018
+destination: "2018"
 email: team@stateofthemap.jp
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
