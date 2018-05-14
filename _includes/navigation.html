@@ -23,8 +23,8 @@
     {% endfor %}
   </ul>
 
-  <!-- Inpage link -->
   {% if page.linksection %}
+  <!-- Inpage link -->
   <ul class="menu">
     {% for link in page.linksection %}
     {% capture sectionurl %}/#{{ link.id }}{% endcapture %}
