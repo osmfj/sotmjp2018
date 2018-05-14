@@ -21,29 +21,19 @@
         </li>
       {% endif %}
     {% endfor %}
-
-    <li class="menu-item">
-      <a href="{{ '/#開催概要' | relative_url }}" itemprop="url">
-        <span itemprop="name">開催概要</span>
-      </a>
-    </li>
-
-    <li class="menu-item">
-      <a href="{{ '/#sponsor' | relative_url }}" itemprop="url">
-        <span itemprop="name">スポンサー</span>
-      </a>
-    </li>
-
-    <li class="menu-item">
-      <a href="{{ '/#タイムテーブル' | relative_url }}" itemprop="url">
-        <span itemprop="name">タイムテーブル</span>
-      </a>
-    </li>
-
-    <li class="menu-item">
-      <a href="{{ '/#実行委員長より' | relative_url }}" itemprop="url">
-        <span itemprop="name">実行委員長より</span>
-      </a>
-    </li>
   </ul>
+
+  <!-- Inpage link -->
+  {% if page.linksection %}
+  <ul class="menu">
+    {% for link in page.linksection %}
+    {% capture sectionurl %}/#{{ link.id }}{% endcapture %}
+      <li class="menu-item">
+        <a href="{{ sectionurl | relative_url }}" itemprop="url">
+          <span itemprop="name">{{ link.caption }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 </nav>

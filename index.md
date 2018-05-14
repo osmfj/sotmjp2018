@@ -4,6 +4,15 @@
 
 layout: home
 image: /assets/images/SOTM_2017.jpg
+linksection:
+  - caption: "開催概要"
+    id: "開催概要"
+  - caption: "スポンサー"
+    id: "sponsor"
+  - caption: "タイムテーブル"
+    id: "タイムテーブル"
+  - caption: "実行委員長より"
+    id: "実行委員長より"
 ---
 
 ## [講演提案を6/18まで受付中](presentations.html)
