@@ -23,7 +23,11 @@
           {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
           <div class="logo">
             <a href="{{ sponsor.url }}">
+              {% if sponsor.logo %}
               <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
+              {% else %}
+              {{ sponsor.name }}
+              {% endif %}
             </a>
           </div>
           {% endif %}
