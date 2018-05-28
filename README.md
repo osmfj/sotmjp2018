@@ -74,5 +74,5 @@ bundle exec jekyll build -b 2018
 次のようにスポンサーのレベルを入力します。  
 Gold なら gold  
 Silver なら silver  
-Personal Supporters なら suppoert  
+Personal Supporters なら support  
 
