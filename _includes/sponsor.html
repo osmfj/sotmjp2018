@@ -1,3 +1,5 @@
+{% assign sponsorlevel = "gold,silver,support" | split: "," %}
+
 <link rel="stylesheet" href="{{ '/assets/stylesheets/sponsor.css' | relative_url }}">
 <div id="sponsor">
   <h1>スポンサー</h1>
@@ -6,48 +8,31 @@
     <p>法人様で支援を検討頂ける場合、こちらから各種の資料をお送りさせていただきます。team@stateofthemap.jp 宛てに「資料希望」「相談希望」等、お問い合わせください。<a href="https://docs.google.com/document/d/e/2PACX-1vQw2RHtgE4uF-FbggjYc0yK57BO4gS0jeBEvbnTASLg8k5VIS2cHhe8QkGIhxtlEqx7X3KUWYOlN3QI/pub">スポンサー様iご案内状</a>を閲覧することもできます。</p>
   </div>
   <div class="sponsorlist">
-    <h2 class="gold-heading">Gold Sponsors</h2>
-    <div class="gold-sponsor">
-      {% for sponsor in site.data.sponsors %}
-      {% if sponsor.level == "gold" %}
-      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
-      <div class="logo">
-        <a href="{{ sponsor.url }}">
-          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-  <div class="sponsorlist">
-    <h2 class="silver-heading">Silver Sponsors</h2>
-    <div class="silver-sponsor">
-      {% for sponsor in site.data.sponsors %}
-      {% if sponsor.level == "silver" %}
-      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
-      <div class="logo">
-        <a href="{{ sponsor.url }}">
-          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-  <div class="sponsorlist">
-    <h2 class="supporter-heading">Personal Supporters</h2>
-    <div class="supporter-sponsor">
-      {% for sponsor in site.data.sponsors %}
-      {% if sponsor.level == "support" %}
-      {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
-      <div class="logo">
-        <a href="{{ sponsor.url }}">
-          <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
+    {% for level in sponsorlevel %}
+       <h2 class="{{ level }}-heading">
+        {% if level == "supporter" %}
+        personal
+        {% else %}
+        {{ level }}
+        {% endif %}
+         Sponsors
+        </h2>
+        <div class="{{ level }}-sponsor">
+          {% for sponsor in site.data.sponsors %}
+          {% if sponsor.level == level %}
+          {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
+          <div class="logo">
+            <a href="{{ sponsor.url }}">
+              {% if sponsor.logo %}
+              <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
+              {% else %}
+              {{ sponsor.name }}
+              {% endif %}
+            </a>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+    {% endfor %}
   </div>
 </div>

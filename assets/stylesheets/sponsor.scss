@@ -10,6 +10,9 @@ $created: "2018-05-06";
 $GOLD_SPONSOR_WIDTH: 45%;
 $SILVER_SPONSOR_WIDTH: 30%;
 $SUPPORTER_SPONSOR_WIDTH: 23%;
+$GOLD_FONT_SIZE: 40px;
+$SILVER_FONT_SIZE: 30px;
+$SUPPORTER_FONT_SIZE: 20px;
 
 .sponsorlist {
    margin-bottom: 1.5rem;
@@ -17,27 +20,40 @@ $SUPPORTER_SPONSOR_WIDTH: 23%;
 
 .sponsorlist h2 {
   margin-bottom: 0rem;
+  text-transform: capitalize;
 }
 
 .sponsorlist .logo {
   display: inline-block;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .gold-sponsor .logo {
   width: $GOLD_SPONSOR_WIDTH;
-  text-align: center;
+  font-size: $GOLD_FONT_SIZE;
 }
 
 .silver-sponsor .logo {
   width: $SILVER_SPONSOR_WIDTH;
+  font-size: $SILVER_FONT_SIZE;
+}
+
+.support-sponsor .logo {
+  width: $SUPPORTER_SPONSOR_WIDTH;
+  font-size: $SUPPORTER_FONT_SIZE;
 }
 
 .supporter-sponsor .logo {
   width: $SUPPORTER_SPONSOR_WIDTH;
 }
 
+.logo img {
+  height: auto;
+  max-height: 100px;
+}
+
 // スポンサーレベルの見出し装飾用
 .gold-heading {}
 .silver-heading {}
-.supporter-heading {}
+.support-heading {}

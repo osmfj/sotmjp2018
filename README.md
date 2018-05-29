@@ -68,11 +68,12 @@ bundle exec jekyll build -b 2018
 
 `assets/images/logo` に配置したロゴファイルのファイル名を入力します。  
 ファイル名以外のパスは入力しないでください。
+ロゴファイルが存在しない場合には空のセルにしておきます。
 
 ### スポンサーレベル
 
 次のようにスポンサーのレベルを入力します。  
 Gold なら gold  
 Silver なら silver  
-Personal Supporters なら suppoert  
+Personal Supporters なら support  
 
