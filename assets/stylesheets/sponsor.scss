@@ -48,6 +48,11 @@ $SUPPORTER_FONT_SIZE: 20px;
   width: $SUPPORTER_SPONSOR_WIDTH;
 }
 
+.logo img {
+  height: auto;
+  max-height: 100px;
+}
+
 // スポンサーレベルの見出し装飾用
 .gold-heading {}
 .silver-heading {}
