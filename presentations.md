@@ -3,7 +3,7 @@ layout: page
 title: 講演
 permalink: presentations.html
 ---
-# 講演提案のうけつけ
+# 講演募集(CFP)のうけつけ
 
 6月18日まで、講演提案を受付けています。
 
