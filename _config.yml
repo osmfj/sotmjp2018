@@ -17,7 +17,7 @@ lang: ja-JP
 title: State of the Map Japan 2018
 destination: "2018"
 email: team@stateofthemap.jp
-description:
+description: State of the Map Japan 2018 (SOTMJP 2018) website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stateofthemap.jp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
