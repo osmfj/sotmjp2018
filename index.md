@@ -15,7 +15,7 @@ linksection:
     id: "実行委員長より"
 ---
 
-## [講演提案を6/18まで受付中](presentations.html)
+## [講演提案を締切ました](presentations.html)
 
 # 世界を自由な地図にしよう
 
