@@ -15,7 +15,7 @@ linksection:
     id: "実行委員長より"
 ---
 
-## [講演提案を締切ました](presentations.html)
+## [チケットの配布を開始しました](https://sotmjp2018.peatix.com/)
 
 # 世界を自由な地図にしよう
 
@@ -23,6 +23,7 @@ linksection:
 
 # おしらせ
 
+* [チケットの配布を開始しました](https://sotmjp2018.peatix.com/)
 {% include posts.html %}
 
 # カンファレンス・テーマ
