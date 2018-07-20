@@ -27,7 +27,7 @@
   <!-- Inpage link -->
   <ul class="menu">
     {% for link in page.linksection %}
-    {% capture sectionurl %}/#{{ link.id }}{% endcapture %}
+    {% capture sectionurl %}{{ page.url }}#{{ link.id }}{% endcapture %}
       <li class="menu-item">
         <a href="{{ sectionurl | relative_url }}" itemprop="url">
           <span itemprop="name">{{ link.caption }}</span>
