@@ -22,7 +22,7 @@
           {% if sponsor.level == level %}
           {% capture logourl %}/assets/images/logo/{{ sponsor.logo }}{% endcapture %}
           <div class="logo">
-            <a href="{{ sponsor.url }}">
+            <a href="{{ sponsor.url }}" title="{{ sponsor.name }}">
               {% if sponsor.logo %}
               <img src="{{ logourl | relative_url }}" alt="{{ sponsor.name }}">
               {% else %}
@@ -34,5 +34,11 @@
           {% endfor %}
         </div>
     {% endfor %}
+    <h2 class="support-heading">後援</h2>
+    <div class="support-sponsor">
+      <div class="logo">
+        <a href="http://www.ospn.jp/" title="Open Source People Network(OSPN)"><img src="http://www.ospn.jp/bn/ospnjp.png" alt="Open Source People Network(OSPN)"/></a>
+      </div>
+    </div>
   </div>
 </div>
