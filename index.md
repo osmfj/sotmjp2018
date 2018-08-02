@@ -43,7 +43,7 @@ State of the Map Japan 2018 は“知のバリアフリー” をテーマに、
 
 ## カンファレンス名称 ステート オブ ザ マップ State of the Map Japan 2018
 
-* 主催    [State of the Map Japan 2018 実行委員会](/about/),  [一般社団法人OpenStreetMap Foundation Japan](https://osmf.jp/)
+* 主催    [State of the Map Japan 2018 実行委員会]({{ 'about.html#sotm-jp-2018実行委員会について' | relative_url }}),  [一般社団法人OpenStreetMap Foundation Japan](https://osmf.jp/)
 
 * 開催日時  2018年8月11日 10時から17時
 
